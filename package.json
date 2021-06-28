@@ -1,0 +1,38 @@
+{
+  "name": "@xolos/react-stepper",
+  "version": "1.0.0",
+  "description": "A simple, flexible React step wizard hook",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "author": {
+    "name": "Omar De Los Santos",
+    "email": "omar@xolos.tech"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "React",
+    "hooks",
+    "wizard"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.52.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
