@@ -1,11 +1,13 @@
 {
   "name": "@xolos/react-stepper",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A simple, flexible React step wizard hook",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": {
     "name": "Omar De Los Santos",
@@ -21,18 +23,36 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/jest": "^27.0.1",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
     "rollup": "^2.52.3",
     "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.3.4"
   },
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
   }
 }
