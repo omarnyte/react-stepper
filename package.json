@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "A simple, flexible React step wizard hook",
   "main": "dist/index.js",
+  "author": {
+    "name": "Omar De Los Santos",
+    "email": "omar@xolos.tech"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/omarnyte/react-stepper",
+  "repository": "omarnyte/react-stepper",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
     "test": "jest",
     "test:watch": "jest --watch"
-  },
-  "author": {
-    "name": "Omar De Los Santos",
-    "email": "omar@xolos.tech"
   },
   "files": [
     "dist"
@@ -21,7 +24,6 @@
     "hooks",
     "wizard"
   ],
-  "license": "ISC",
   "devDependencies": {
     "@testing-library/react-hooks": "^7.0.2",
     "@types/jest": "^27.0.1",
