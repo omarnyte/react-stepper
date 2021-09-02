@@ -1,6 +1,6 @@
 {
   "name": "@xolos/react-stepper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple, flexible React step wizard hook",
   "main": "dist/index.js",
   "scripts": {
