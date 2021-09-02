@@ -1,4 +1,5 @@
 # React Stepper
+[![npm version](https://badge.fury.io/js/@xolos%2Freact-stepper.svg)](https://badge.fury.io/js/@xolos%2Freact-stepper)
 
 ## Example
 ```jsx
