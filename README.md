@@ -1,5 +1,19 @@
 # React Stepper
+[![Node.js CI](https://github.com/omarnyte/react-stepper/actions/workflows/test.yml/badge.svg)](https://github.com/omarnyte/react-stepper/actions/workflows/test.yml)
+
 [![npm version](https://badge.fury.io/js/@xolos%2Freact-stepper.svg)](https://badge.fury.io/js/@xolos%2Freact-stepper)
+
+A simple, flexible React step wizard hook.
+
+## Installation
+```
+npm install @xolos/react-stepper
+```
+or 
+```
+yarn add @xolos/react-stepper
+```
+This library has peerDependencies listings for `react` and `react-dom`.
 
 ## Example
 ```jsx
@@ -48,7 +62,11 @@ const {
 
 * `goToNextStep: () => void`
 
+  The stepper will loop to the first step if moving past the last step.
+
 * `goToPreviousStep: () => void`
+
+  The stepper will loop to the last step if moving past the first step.
 
 * `isFirstStep: boolean`
 
