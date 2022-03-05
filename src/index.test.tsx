@@ -3,7 +3,7 @@ import useStepper from './index';
 
 
 describe('useStepper', () => {
-	const stepIds = ['first', 'second', 'third'];
+	const stepIds = ['first', 2, 'third'];
 	
 	it('begins at first step', () => {
 		const { result } = renderHook(() => useStepper(stepIds));

@@ -1,6 +1,5 @@
 # React Stepper
 [![Node.js CI](https://github.com/omarnyte/react-stepper/actions/workflows/test.yml/badge.svg)](https://github.com/omarnyte/react-stepper/actions/workflows/test.yml)
-
 [![npm version](https://badge.fury.io/js/@xolos%2Freact-stepper.svg)](https://badge.fury.io/js/@xolos%2Freact-stepper)
 
 A simple, flexible React step wizard hook.
@@ -44,19 +43,19 @@ export default App;
 ## API
 ```jsx
 const {
-	currentStepId,
-	currentStepIndex,
-	goToNextStep,
-	goToPreviousStep,
-	isFirstStep,
-	isLastStep
+  currentStepId,
+  currentStepIndex,
+  goToNextStep,
+  goToPreviousStep,
+  isFirstStep,
+  isLastStep
 } = useStepper(stepIds)
 ```
 ### Options
-* `stepIds: string[]`
+* `stepIds: Array<string | number>`
 
 ### Returns
-* `currentStepId: string`
+* `currentStepId: string | number`
 
 * `currentStepIndex: number`
 

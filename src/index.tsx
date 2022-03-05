@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useStepper = (stepIds: string[]) => {
+const useStepper = (stepIds: Array<string | number>) => {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
   const currentStepId = stepIds[currentStepIndex];
